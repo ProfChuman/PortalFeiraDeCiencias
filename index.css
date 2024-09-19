@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.Container{
+    display: flex;
+    min-width: 1080px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cabecalho{
+    display: flex;
+    height: 50px;
+    width:-webkit-fill-available;
+    background-color: aquamarine;
+    color: blue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    align-items: center;
+}
+
+.Content{
+    width:-webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.Desc{
+    width: 50%;
+}
+
+.Video{
+    width: 50%;
+}
